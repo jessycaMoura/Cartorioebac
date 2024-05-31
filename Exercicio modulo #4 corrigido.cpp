@@ -128,6 +128,7 @@ int main()
     	printf("\t2 - consultar nomes \n");
     	printf("\t3 - Deletar nomes\n\n");
     	printf("Esse Softare é de livre uso da aluna Jéssyca\n");
+    	printf("\t4 - sair do sistema\n\n");
     	printf("Opção: "); // Fim do menu
 	
     	scanf("%d", &opcao); //Armazenando a escolha do usuário
@@ -146,6 +147,11 @@ int main()
 	    	
 	    	case 3:
 	        deletar();
+   	    	break;
+   	    	
+   	    	case 4:
+   	    	printf("Obrigadopor ultilizar o sistema!\n")
+   	        return 0;
    	    	break;
    	    	
    	    	default:
